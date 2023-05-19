@@ -1,0 +1,859 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>282_DA_NGUYEN DUC DUONG</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/jquery-ui.css">	
+<link rel="stylesheet" href="css/multi-slide.css">
+	<link rel="stylesheet" href="css/price_range_style.css">
+<link rel="stylesheet" href="css/style-1.css">
+<link rel="stylesheet" href="css/style-2.css">
+	<link rel="stylesheet" href="css/gallery.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="login-popup" class="login-popup" href="#">
+  <div class="login-content">
+    <p>sdfkgjhsdfkjghdsfkjg</p>
+    <a href="#" class="close">x</a> </div>
+</div>
+<div class="container" id="header">
+  <div class="row">
+    <div class="col-lg-3 col-md-4 search-form nav-top">
+      <div class="row">
+        <div class="col-10">
+          <input type="text" placeholder="Search products...">
+        </div>
+        <div class="col-2">
+          <button class="btn-search"><i class="fa-search fa-solid"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-5 col-sm-6 col-5 logo nav-logo"> <img src="images/Logo.png" alt=""> </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 icon-list nav-top" >
+      <ul class="d-flex">
+        <li><i class="fa-solid fa-search" id="isearch"></i>
+          <div class="pop-up search">
+            <div class="row">
+              <div class="col-10">
+                <input type="text" placeholder="Search...">
+              </div>
+              <div class="col-2">
+                <button class="btn-search" ><i class="fa-search fa-solid" id="ibtn"></i></button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><i class="fa-user fa-regular" id="iuser"></i>
+          <div class="form-login pop-up">
+            <ul>
+              <li><a href="#login-popup">Login</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">My Order</a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="#">My Download</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-heart fa-regular"></i></li>
+        <li><i class="fa-bag-shopping fa-solid" id="icart"></i>
+          <div class="shopping-cart pop-up">
+            <p>No Products In The Cart.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="nav-btn"></div>
+  <div class="navbar navbar-expand-lg justify-content-center mt-3" >
+    <button class="navbar-toggler" id="nav-btn" data-bs-target="#nav" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" ><i class="fa-solid fa-bars" onclick="openNav()"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="nav navbar-nav" >
+        <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="shop.html" >shop</a>
+          <ul class="dropdown-menu  ">
+            <li><a class="dropdown-item" href="shop.html"> Product type</a></li>
+            <li><a class="dropdown-item" href="shop.html"> shop pages </a></li>
+            <li><a class="dropdown-item" href="shop.html"> product categories </a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="blog.html" >blog</a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="blog.html"> Left Sidebar</a></li>
+            <li><a class="dropdown-item" href="blog.html"> Right Sidebar </a></li>
+            <li><a class="dropdown-item" href="blog.html"> Full Width </a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="gallery.html">media</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="gallery.html"> Gallery</a></li>
+            <li><a class="dropdown-item" href="portfolio.html"> Portfolio </a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="about_us.html" class="nav-link">about us</a></li>
+        <li class="nav-item"><a href="contact_us.html" class="nav-link">contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- InstanceBeginEditable name="EditRegion1" -->
+<div class="container-fluid bg-header mb-5 text-center">
+  <h2>shop</h2>
+  <ul class="breadcrumb justify-content-center">
+    <li class="breadcrumb-item"><a href="index.html">home</a></li>
+    <li class="breadcrumb-item" aria-current="page">shop</li>
+    <li class="breadcrumb-item  active" aria-current="page">Black-White Rubber Shoe</li>
+  </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-md-6 col-12 mb-4">
+      <div class="product-img">
+        <div class="big-images mb-4"> <img src="images/11 2.png" alt="Image To Zoom" class="zoomsl" data-title="Black-White Rubber Shoe"> <span><i></i></span> </div>
+        <div class="mixedSlider " id="MS-5">
+          <div class="MS-content">
+            <div class="item ">
+              <div class="small-images "> <img src="images/11 2.png" alt=""> </div>
+            </div>
+            <div class="item ">
+              <div class="small-images "> <img src="images/11 2 (1).png" alt=""> </div>
+            </div>
+            <div class="item ">
+              <div class="small-images "> <img src="images/11 2 (2).png" alt=""> </div>
+            </div>
+            <div class="item ">
+              <div class="small-images "> <img src="images/11 2 (3).png" alt=""> </div>
+            </div>
+            <div class="item ">
+              <div class="small-images "> <img src="images/11 2 (4).png" alt=""> </div>
+            </div>
+          </div>
+          <div class="MS-controls">
+            <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+            <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <span></span> </div>
+    </div>
+    <div class="col-lg-7 col-md-6 col-12 mb-3 card-item">
+      <div class="col-12 card-title">
+        <h1>BLACK-WHITE RUBBER SHOE</h1>
+        <ul class="star d-flex">
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><span><i class="fa-solid fa-star"></i></span></li>
+          <li><span><i class="fa-solid fa-star"></i></span></li>
+        </ul>
+      </div>
+      <div class="col-12 d-flex mt-2">
+        <p class="new-card">$48.00</p>
+        <p class="old-card">$50.00</p>
+      </div>
+      <div class="timer my-3">
+        <div class="days"></div>
+        <p>:</p>
+        <div class="hours"></div>
+        <p>:</p>
+        <div class="minutes"></div>
+        <p>:</p>
+        <div class="seconds"></div>
+      </div>
+      <ol class="card-info">
+        <li>100% Quality</li>
+        <li>Increases Resistance</li>
+        <li>Free Shipping Over $59</li>
+      </ol>
+      <div class="line-2"></div>
+      <div class="option mt-4">
+        <div class="color-option">
+          <h3 class="my-3">color : <span id="color-name" style="color:#457">BLUE</span></h3>
+          <div class="color-picker ">
+            <div class="color overlay" id="color-overlay">
+              <div class="check"></div>
+            </div>
+            <div class="color color-a" id="color-a"> <img src="images/11 2 (8).png" alt=""> </div>
+            <div class="color color-b" id="color-b"> <img src="images/11 2.png" alt=""> </div>
+          </div>
+        </div>
+        <div class="size-picker mt-4 mb-3">
+          <h3>Size : uk</h3>
+          <div class="range-picker my-3" id="range-picker">
+            <div>38</div>
+            <div>40</div>
+            <div>41</div>
+            <div class="active">42</div>
+            <div>43</div>
+            <div>44</div>
+          </div>
+        </div>
+      </div>
+      <div class="num-cart d-flex">
+        <div class="num">
+          <button onClick="giam()"><i class="fa-solid fa-minus"></i></button>
+          <input type="text" value="1" id="soluong">
+          <button onClick="tang()"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="btn-bg">
+          <button>add to cart</button>
+        </div>
+      </div>
+      <ul class="d-flex wishlist my-4">
+        <li><a href="#"><i class="fa-regular fa-heart"></i>add to wishlist</a></li>
+        <li>|</li>
+        <li><a href="#"><i class="fa-solid fa-rotate"></i>compare</a></li>
+      </ul>
+      <div class="line-2 mb-4"></div>
+      <div class="col-12 tag-list">
+        <p><span>SKU:</span>JUM642</p>
+        <p class="float-start"><span>Categories:</span> <a href="#">climbing shoes,</a> <a href="#">desert boots,</a> <a href="#">laced bootie</a> </p>
+        <p><span>Tag:</span><a href="#">Lingerie</a></p>
+        <p><span>Brand:</span><a href="#">Quality</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container my-5" id="nav-card">
+  <div class="row">
+    <ul class="nav nav-pills justify-content-start mb-3">
+      <li class="nav-item ">
+        <button class="nav-link " data-bs-toggle="tab" data-bs-target="#tab1">Description</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab2">Additional Information</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab3">review (4)</button>
+      </li>
+    </ul>
+    <div class="tab-content mt-3 ps-0">
+      <div class="tab-pane  " id="tab1">
+        <p>In Cursus Faucibus Tortor Eu Vestibulum. Ut Eget Turpis Ac Justo Porta Varius. Donec Vel Felis Ante, Ac Vehicula Ipsum. Quisque Sed Diam Metus. Quisque Eget Leo Sit Amet Erat Varius Rutrum Vitae Dapibus Lectus. Vivamus Et Sapien Ante. Suspendisse Potenti. Fusce In Tellus Est, Ac Consequat Lacus. Nulla Risus Massa, Commodo In Imperdiet Ut, Ornare In Leo. Duis Pellentesque Sagittis Lorem, Sed Mollis Lorem Venenatis Id.</p>
+      </div>
+      <div class="tab-pane " id="tab2">
+        <table class="table table-bordered m-3">
+          <tbody>
+            <tr>
+              <td class="col-2 table-title">weight</td>
+              <td class="col-10">56 Kg</td>
+            </tr>
+            <tr>
+              <td class="col-2 table-title">dimensions</td>
+              <td class="col-10">56 × 56 × 42 Cm</td>
+            </tr>
+            <tr>
+              <td class="col-2 table-title">color</td>
+              <td class="col-10">Carob, Dark Red, Gray</td>
+            </tr>
+            <tr>
+              <td class="col-2 table-title">material</td>
+              <td class="col-10">Canvas, Denim, Foam, Leather, Textiles</td>
+            </tr>
+            <tr>
+              <td class="col-2 table-title">size</td>
+              <td class="col-10">EUR, UK, US</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane active" id="tab3">
+        <div class="row">
+          <div class="col-md-6 col-12 tab-review mb-3">
+            <div class="row">
+				<div class="col-12 mb-3">
+					<div class="row">
+              <div class="col-1"> <img src="images/b4559be2cf0bd6a979245c86da8182d0.png" alt=""> </div>
+              <div class="col-11">
+                <div class="box-review">
+                  <ul class="star d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                  </ul>
+				<p class="mb-3"><span>Admin</span> – 20 Apr, 2021</p>
+					<p>Very good item !!!</p>
+                </div>
+              </div> </div></div>
+				<div class="col-12 mb-3">
+					<div class="row">
+              <div class="col-1"> <img src="images/b4559be2cf0bd6a979245c86da8182d0.png" alt=""> </div>
+              <div class="col-11">
+                <div class="box-review">
+                  <ul class="star d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                  </ul>
+				<p class="mb-3"><span>Jack Sparrow</span> – 22 Sep, 2021</p>
+					<p>Best seller !!!</p>
+                </div>
+              </div> </div></div>
+				<div class="col-12 mb-3">
+					<div class="row">
+              <div class="col-1"> <img src="images/b4559be2cf0bd6a979245c86da8182d0.png" alt=""> </div>
+              <div class="col-11">
+                <div class="box-review">
+                  <ul class="star d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+				<p class="mb-3"><span>Duong</span> – 13 Mar, 2021</p>
+					<p>Best item ever</p>
+                </div>
+              </div> </div></div>
+				<div class="col-12 mb-3">
+					<div class="row">
+              <div class="col-1"> <img src="images/b4559be2cf0bd6a979245c86da8182d0.png" alt=""> </div>
+              <div class="col-11">
+                <div class="box-review">
+                  <ul class="star d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                  </ul>
+				<p class="mb-3"><span>Thoa</span> – 12 Dec, 2022</p>
+					<p>Good item :3</p>
+                </div>
+              </div> </div></div>
+            </div>
+          </div>
+			<div class="col-md-6 col-12 ps-4">
+			<h4 class="mb-4">add a review</h4>
+			<p class="mb-3">Your Email Address Will Not Be Published. Required Fields Are Marked *</p>
+
+				<div class="rating-stars text-center mb-3">
+				<ul class="d-flex " id="stars">
+      <li class="star" title="Poor" data-value="1">
+        <i class="fa fa-star fa-fw"></i>
+      </li>
+      <li class="star" title="Fair" data-value="2">
+        <i class="fa fa-star fa-fw"></i>
+      </li>
+      <li class="star" title="Good"  data-value="3">
+       <i class="fa fa-star fa-fw"></i>
+      </li>
+      <li class="star" title="Excellent" data-value="4">
+       <i class="fa fa-star fa-fw"></i>
+      </li>
+      <li class="star" title="WOW!!!" data-value="5">
+       <i class="fa fa-star fa-fw"></i>
+      </li>
+    </ul></div>
+				<p>Your review *</p>
+				<textarea name="" id=""  rows="5" class="mb-3"></textarea>
+				<p>Name *</p>
+				<input type="text" class=" mb-3">
+				<p>Email</p>
+				<input type="text" class=" mb-3">
+				<input type="checkbox" id="" name="" value="" class="me-1 ">
+  <label for="" class="mb-4">Save My Name, Email, And Website In This Browser For The Next Time I Comment.</label>
+				<div class="btn-bg">
+          <button>submit</button>
+        </div>
+			</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container section-title text-center">
+	<h2>related products</h2>
+	</div>
+<div class="container mt-4 mb-5">
+  <div class="mixedSlider " id="MS-2">
+    <div class="MS-content ">
+      <div class="item my-3 " href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (8).png" alt="" class="img-1" ><img src="images/03 12.png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">nike stylist shoe</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2">
+            <p class="new-price">$200.00</p>
+          </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3" href="#">
+        <div class="pr-item ">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (6).png" alt="" class="img-1" ><img src="images/03 2.png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">black low top sneakers</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2">
+            <p class="new-price">$191.00</p>
+          </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3" href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (13).png" alt="" class="img-1" ><img src="images/03 1 (3).png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">black white lace vans shoe</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2"> </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">select options</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3" href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (14).png" alt="" class="img-1" ><img src="images/03 1 (2).png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">dellow sneaker unisex</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2"> </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3" href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (11).png" alt="" class="img-1" ><img src="images/03 1 (10).png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">maroon vans boys</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2"> </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">select options</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3 " href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (1).png" alt="" class="img-1" ><img src="images/03 1 (20).png" alt="" class="img-2">
+              <div class="pr-tag">
+                <p>-4%</p>
+              </div>
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">black-white rubber shoe</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2">
+            <p class="new-price">$48.00</p>
+            <p class="old-price">$50.00</p>
+          </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3 " href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 2.png" alt="" class="img-1" ><img src="images/03 1 (14).png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">cool sport red shoe</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2">
+            <p class="new-price">$701.00</p>
+          </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3 " href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (17).png" alt="" class="img-1" ><img src="images/03 1 (11).png" alt="" class="img-2">
+              <div class="pr-tag">
+                <p>-9%</p>
+              </div>
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">party wear shoe</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2">
+            <p class="new-price">$32.00 - $54.00</p>
+          </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">select options</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3 " href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (2).png" alt="" class="img-1" ><img src="images/03 1 (6).png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">air jordan shoe</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2">
+            <p class="new-price">$100.00</p>
+          </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="item my-3 " href="#">
+        <div class="pr-item">
+          <div class="col-12">
+            <div class="pr-img"><img src="images/03 1 (20).png" alt="" class="img-1" ><img src="images/03 1 (15).png" alt="" class="img-2">
+              <ul class="pr-icon">
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li><i class="fa-solid fa-repeat"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+              </ul>
+              <ul class="pr-rating d-flex justify-content-center w-100 ">
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+                <li><span><i class="fa-solid fa-star"></i></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12  text-center">
+            <h4 class="pr-name">fil white sneaker</h4>
+          </div>
+          <div class="col-12 justify-content-center d-flex mt-2"> </div>
+          <div class="col-12 text-center btn-hover">
+            <button class="pr-btn">view products</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="MS-controls">
+      <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+      <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+  </div>
+</div>
+<!-- InstanceEndEditable -->
+<div class="container-fluid footer-bg">
+  <div class="nav-footer container">
+    <div id="footer-2" class="mb-3">
+      <ul class="">
+        <li>(+1) 1234 4567 890</li>
+        <li><span>|</span></li>
+        <li>502 Melbourne, San Francisco, CA 94110, United States Of America</li>
+        <li><span>|</span></li>
+        <li>Info@Example.Com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="line-2 "></div>
+<div class="container p-4">
+	<div class="row">
+	<div class="col-lg-4 col-12 footer-left ">
+		<ul class="d-flex justify-content-start"><li><i class="fa-brands fa-facebook-f"></i></li>
+		<li><i class="fa-brands fa-twitter"></i></li>
+			<li><i class="fa-brands fa-instagram"></i></li>
+			<li><i class="fa-brands fa-google-plus-g"></i></li>
+		</ul>
+		</div>
+		<div class="col-lg-4 col-12 footer-center text-center"><p>Copyright © 2023 Templatemela</p></div>
+		<div class="col-lg-4 col-12 footer-right "><img src="images/image%201.png" alt="" ></div>
+	</div>
+	</div>
+	</div>
+<div id="mySidenav" class="sidenav">
+  <button href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</button>
+  <a href="index.html" >home</a>
+	<a href="shop.html" class="dropdown-btn">shop<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-container"> <a href="shop.html"><i class="fa-solid fa-plus pe-3"></i>product types</a> 
+	  <a href="shop.html"><i class="fa-solid fa-plus pe-3"></i>shop pages</a> 
+	  <a href="shop.html"><i class="fa-solid fa-plus pe-3"></i>product categories</a> </div>
+	
+  <a href="blog.html" class="dropdown-btn">blog<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-container"> <a href="#"><i class="fa-solid fa-plus pe-3"></i>left sidebar</a> <a href="blog.html"><i class="fa-solid fa-plus pe-3"></i>right sidebar</a> <a href="blog.html"><i class="fa-solid fa-plus pe-3"></i>full width</a> </div>
+  <a href="gallery.html" class="dropdown-btn">media<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-container"> <a href="gallery.html"><i class="fa-solid fa-plus pe-3"></i>gallery</a> <a href="portfolio.html"><i class="fa-solid fa-plus pe-3"></i>portfolio</a> </div>
+  <a href="contact_us.html">contact us</a> <a href="about_us.html">about us</a> </div>
+<a href="#header" class="btn-top" ><i class="fa-solid fa-angle-up"></i></a> 
+<script src="js/jquery-3.6.0.min.js"></script>
+	
+<script src="js/bootstrap.bundle.js"></script> 
+	<script src="js/jquery-ui.min.js"></script>
+<script src="js/multislider.js"></script> 
+	<script src="js/price_range_script.js"></script>
+<script src="js/script-1.js"></script> 
+<script src="js/zoomsl.js"></script>
+<script>
+	
+	$('#iuser').click(function(){	
+	var show=$('.form-login').css('display');
+	if(show=='none')	
+	{$('.form-login').css('display','block');
+		$('.shopping-cart').css('display','none');
+		$('.search').css('display','none');}
+	if(show=='block')
+		$('.form-login').css('display','none');		
+	})
+	$('#icart').click(function(){	
+	var show=$('.shopping-cart').css('display');
+	if(show=='none')	
+		{
+		$('.shopping-cart').css('display','block');
+		$('.form-login').css('display','none');
+		$('.search').css('display','none');}
+	if(show=='block')
+		$('.shopping-cart').css('display','none');
+	})
+	$('#isearch').click(function(){	
+	var show=$('.search').css('display');
+	if(show=='none')	
+		{
+		$('.search').css('display','block');
+		$('.form-login').css('display','none');
+		$('.shopping-cart').css('display','none');
+		}
+	if(show=='block')
+		$('.search').css('display','none');
+	})
+
+  $("#isearch").click(function(){
+	 var btn=$("#isearch").hasClass("fa-search");
+	  if(btn==true)
+		  {
+			  $("#isearch").removeClass("fa-search");
+			  $("#isearch").addClass("fa-xmark");
+		  }
+	  else
+		  {
+			  $("#isearch").removeClass("fa-xmark");
+			  $("#isearch").addClass("fa-search");
+		  }
+})	  
+
+		$('#MS-1').multislider({
+			duration: 750,
+			interval: 3000
+		});
+	$('#MS-2').multislider({
+			duration: 250,
+			interval: false
+		});
+	$('#MS-3').multislider({
+			duration: 750,
+			interval: 3000
+		});
+	$(window).ready(function(){
+	var chieucao=$('.sub-img').height();
+	$('.sub-banner').height(chieucao);
+	var imgheight=$('.img-1').height();
+	$('.pr-img').height(imgheight);
+	var list=$('.img-1-1').height();
+	$('.pr-img-1').height(list);
+		var cao=$('.sub-2img').height();
+	$('.sub-banner-2').height(cao);	
+		var h=$('.sub-2img').height()-36;
+	$('.subcribe').height(h);	
+	var blog=$('#blog-img').height();
+		$('.blog-bg').height(blog);
+		$('.blog-grid').height(blog);
+		var gallery=$('#gallery-img').height();
+		$('.gallery-bg').height(gallery);
+});
+	$(window).resize(function(){
+
+	var chieucao=$('.sub-img').height();
+	$('.sub-banner').height(chieucao);
+	var imgheight=$('.img-1').height();
+	$('.pr-img').height(imgheight);
+	var list=$('.img-1-1').height();
+	$('.pr-img-1').height(list);
+	var cao=$('.sub-2img').height();
+	$('.sub-banner-2').height(cao);
+				var h=$('.sub-2img').height()-36;
+	$('.subcribe').height(h);
+		var blog=$('#blog-img').height();
+		$('.blog-bg').height(blog);
+		$('.blog-grid').height(blog);
+			var gallery=$('#gallery-img').height();
+		$('.gallery-bg').height(gallery);
+		
+});
+	$(window).scroll(function(){
+	if($(window).scrollTop()>110)
+		{
+			$('#nav').addClass('nav2');
+			$('.btn-top').css('display','block');
+			$('#nav-btn').removeClass('navbar-toggler');
+			$('.nav-btn').css('display','block');	
+			$('#nav-btn').addClass('nav1');	
+		}
+		
+else
+	{	
+			$('#nav').removeClass('nav2');
+		$('.btn-top').css('display','none');
+	$('#nav-btn').removeClass('nav1');
+		$('.nav-btn').css('display','none');
+		$('#nav-btn').addClass('navbar-toggler');
+		
+	}
+});
+	$(".btn-more").click(function(){
+	var click= $('#viewmore').css('display');
+	
+		if (click=='none')
+			$('#viewmore').css('display','block');
+		
+		if(click=='block')
+			{
+			$('.viewmore-mes').css('display','block');
+			$(".btn-more").css('display','none');
+				}
+	});
+
+	</script>
+</body>
+<!-- InstanceEnd --></html>

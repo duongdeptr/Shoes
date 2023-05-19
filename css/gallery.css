@@ -1,0 +1,90 @@
+
+#carouselExample .carousel-item img{
+ 
+    height: 550px;
+
+	 }
+.gallery-item
+{cursor: pointer;}
+  .modal-header {
+	  border:none;
+background-color: transparent;
+	  padding: 0;
+	  padding-bottom: 6px;
+}
+
+.modal-footer button
+{
+	background: none;
+	border: none;
+      padding:0px;
+      opacity: 1;
+      position: relative;
+      top: 0;
+	right: 0;
+}
+.modal-footer span
+{
+	color: white;
+}
+.modal-header h3
+{
+	color: #fff;
+	font-size: 16px;
+	
+}
+.modal
+{
+	top: 50px;
+}
+.modal-content
+{
+	background: none;
+	border: none;
+}
+  .modal-body {
+    padding: 0;
+    border: none;
+    position: relative;
+}  
+  .modal-footer {
+    border: none;
+	  padding: 0;
+}
+     
+ 
+  
+ #carouselExample .carousel-control-prev, .carousel-control-next {
+    font-size: 2em;
+    top: 0;
+    opacity: 1;
+	  z-index: 999;color: #222;
+	 
+}
+
+ #carouselExample .carousel-control-next-icon,  .carousel-control-prev-icon {
+    height: 45px;
+    width: 45px;
+	 color: #222;
+	
+  }
+.gallery-control a
+{
+	font-size: 13px;
+	color: #fff;
+	padding: 0 2px;
+}
+ .gallery-indicators button
+{
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 13px;
+	padding: 0;
+}
+.gallery-indicators .active {
+	text-decoration:underline;}
+
+
+
+

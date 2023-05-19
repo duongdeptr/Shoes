@@ -1,0 +1,60 @@
+.price-range-slider {
+  width: 100%;
+}
+.range-value {
+  margin: 0;
+}
+p.range-value
+{
+	 font-size: 14px;
+  font-family: inter-md;
+}
+.range-value input {
+ 
+  background: none;
+  color: #000;
+  font-size: 14px;
+  font-family: inter-md;
+  box-shadow: none;
+  border: none;
+  margin: 20px 0 20px 0;
+}
+.ui-widget.ui-widget-content {
+  border: none;
+}
+.range-bar {
+  border: none;
+  background: #f1f1f1;
+  height: 3px;
+  width: 100%;
+	
+}
+.ui-slider-range {
+  background: #aaa;
+}
+.filter-btn
+{
+	font-family: inter-md;
+    background-color: #222222;
+    border-color: #222222;
+    color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-radius: 22px;
+	width: 102px;
+	height: 44px;
+}
+.ui-slider .ui-slider-handle {
+
+  background: #f1f1f1;
+  border: 1px solid #aaa;
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+.ui-slider-handle + span {
+  background: #06b9c0;
+}
+/*--- /.price-range-slider ---*/

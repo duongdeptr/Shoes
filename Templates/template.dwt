@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>282_DA_NGUYEN DUC DUONG</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/all.min.css">
+<link rel="stylesheet" href="../css/jquery-ui.css">	
+<link rel="stylesheet" href="../css/multi-slide.css">
+	<link rel="stylesheet" href="../css/price_range_style.css">
+<link rel="stylesheet" href="../css/style-1.css">
+<link rel="stylesheet" href="../css/style-2.css">
+	<link rel="stylesheet" href="../css/gallery.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="login-popup" class="login-popup" href="#">
+  <div class="login-content">
+    <p>sdfkgjhsdfkjghdsfkjg</p>
+    <a href="#" class="close">x</a> </div>
+</div>
+<div class="container" id="header">
+  <div class="row">
+    <div class="col-lg-3 col-md-4 search-form nav-top">
+      <div class="row">
+        <div class="col-10">
+          <input type="text" placeholder="Search products...">
+        </div>
+        <div class="col-2">
+          <button class="btn-search"><i class="fa-search fa-solid"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-5 col-sm-6 col-5 logo nav-logo"> <img src="../images/Logo.png" alt=""> </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 icon-list nav-top" >
+      <ul class="d-flex">
+        <li><i class="fa-solid fa-search" id="isearch"></i>
+          <div class="pop-up search">
+            <div class="row">
+              <div class="col-10">
+                <input type="text" placeholder="Search...">
+              </div>
+              <div class="col-2">
+                <button class="btn-search" ><i class="fa-search fa-solid" id="ibtn"></i></button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><i class="fa-user fa-regular" id="iuser"></i>
+          <div class="form-login pop-up">
+            <ul>
+              <li><a href="#login-popup">Login</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">My Order</a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="#">My Download</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa-heart fa-regular"></i></li>
+        <li><i class="fa-bag-shopping fa-solid" id="icart"></i>
+          <div class="shopping-cart pop-up">
+            <p>No Products In The Cart.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="nav-btn"></div>
+  <div class="navbar navbar-expand-lg justify-content-center mt-3" >
+    <button class="navbar-toggler" id="nav-btn" data-bs-target="#nav" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" ><i class="fa-solid fa-bars" onclick="openNav()"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="nav navbar-nav" >
+        <li class="nav-item"><a href="../index.html" class="nav-link">home</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="../shop.html" >shop</a>
+          <ul class="dropdown-menu  ">
+            <li><a class="dropdown-item" href="../shop.html"> Product type</a></li>
+            <li><a class="dropdown-item" href="../shop.html"> shop pages </a></li>
+            <li><a class="dropdown-item" href="../shop.html"> product categories </a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="../blog.html" >blog</a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="../blog.html"> Left Sidebar</a></li>
+            <li><a class="dropdown-item" href="../blog.html"> Right Sidebar </a></li>
+            <li><a class="dropdown-item" href="../blog.html"> Full Width </a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="../gallery.html">media</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../gallery.html"> Gallery</a></li>
+            <li><a class="dropdown-item" href="../portfolio.html"> Portfolio </a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="../about_us.html" class="nav-link">about us</a></li>
+        <li class="nav-item"><a href="../contact_us.html" class="nav-link">contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- TemplateBeginEditable name="EditRegion1" -->
+<div class="container noidung"></div>
+<!-- TemplateEndEditable -->
+<div class="container-fluid footer-bg">
+  <div class="nav-footer container">
+    <div id="footer-2" class="mb-3">
+      <ul class="">
+        <li>(+1) 1234 4567 890</li>
+        <li><span>|</span></li>
+        <li>502 Melbourne, San Francisco, CA 94110, United States Of America</li>
+        <li><span>|</span></li>
+        <li>Info@Example.Com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="line-2 "></div>
+<div class="container p-4">
+	<div class="row">
+	<div class="col-lg-4 col-12 footer-left ">
+		<ul class="d-flex justify-content-start"><li><i class="fa-brands fa-facebook-f"></i></li>
+		<li><i class="fa-brands fa-twitter"></i></li>
+			<li><i class="fa-brands fa-instagram"></i></li>
+			<li><i class="fa-brands fa-google-plus-g"></i></li>
+		</ul>
+		</div>
+		<div class="col-lg-4 col-12 footer-center text-center"><p>Copyright © 2023 Templatemela</p></div>
+		<div class="col-lg-4 col-12 footer-right "><img src="../images/image 1.png" alt="" ></div>
+	</div>
+	</div>
+	</div>
+<div id="mySidenav" class="sidenav">
+  <button href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</button>
+  <a href="../index.html" >home</a>
+	<a href="../shop.html" class="dropdown-btn">shop<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-container"> <a href="../shop.html"><i class="fa-solid fa-plus pe-3"></i>product types</a> 
+	  <a href="../shop.html"><i class="fa-solid fa-plus pe-3"></i>shop pages</a> 
+	  <a href="../shop.html"><i class="fa-solid fa-plus pe-3"></i>product categories</a> </div>
+	
+  <a href="../blog.html" class="dropdown-btn">blog<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-container"> <a href="#"><i class="fa-solid fa-plus pe-3"></i>left sidebar</a> <a href="../blog.html"><i class="fa-solid fa-plus pe-3"></i>right sidebar</a> <a href="../blog.html"><i class="fa-solid fa-plus pe-3"></i>full width</a> </div>
+  <a href="../gallery.html" class="dropdown-btn">media<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-container"> <a href="../gallery.html"><i class="fa-solid fa-plus pe-3"></i>gallery</a> <a href="../portfolio.html"><i class="fa-solid fa-plus pe-3"></i>portfolio</a> </div>
+  <a href="../contact_us.html">contact us</a> <a href="../about_us.html">about us</a> </div>
+<a href="#header" class="btn-top" ><i class="fa-solid fa-angle-up"></i></a> 
+<script src="../js/jquery-3.6.0.min.js"></script>
+	
+<script src="../js/bootstrap.bundle.js"></script> 
+	<script src="../js/jquery-ui.min.js"></script>
+<script src="../js/multislider.js"></script> 
+	<script src="../js/price_range_script.js"></script>
+<script src="../js/script-1.js"></script> 
+<script src="../js/zoomsl.js"></script>
+<script>
+	
+	$('#iuser').click(function(){	
+	var show=$('.form-login').css('display');
+	if(show=='none')	
+	{$('.form-login').css('display','block');
+		$('.shopping-cart').css('display','none');
+		$('.search').css('display','none');}
+	if(show=='block')
+		$('.form-login').css('display','none');		
+	})
+	$('#icart').click(function(){	
+	var show=$('.shopping-cart').css('display');
+	if(show=='none')	
+		{
+		$('.shopping-cart').css('display','block');
+		$('.form-login').css('display','none');
+		$('.search').css('display','none');}
+	if(show=='block')
+		$('.shopping-cart').css('display','none');
+	})
+	$('#isearch').click(function(){	
+	var show=$('.search').css('display');
+	if(show=='none')	
+		{
+		$('.search').css('display','block');
+		$('.form-login').css('display','none');
+		$('.shopping-cart').css('display','none');
+		}
+	if(show=='block')
+		$('.search').css('display','none');
+	})
+
+  $("#isearch").click(function(){
+	 var btn=$("#isearch").hasClass("fa-search");
+	  if(btn==true)
+		  {
+			  $("#isearch").removeClass("fa-search");
+			  $("#isearch").addClass("fa-xmark");
+		  }
+	  else
+		  {
+			  $("#isearch").removeClass("fa-xmark");
+			  $("#isearch").addClass("fa-search");
+		  }
+})	  
+
+		$('#MS-1').multislider({
+			duration: 750,
+			interval: 3000
+		});
+	$('#MS-2').multislider({
+			duration: 250,
+			interval: false
+		});
+	$('#MS-3').multislider({
+			duration: 750,
+			interval: 3000
+		});
+	$(window).ready(function(){
+	var chieucao=$('.sub-img').height();
+	$('.sub-banner').height(chieucao);
+	var imgheight=$('.img-1').height();
+	$('.pr-img').height(imgheight);
+	var list=$('.img-1-1').height();
+	$('.pr-img-1').height(list);
+		var cao=$('.sub-2img').height();
+	$('.sub-banner-2').height(cao);	
+		var h=$('.sub-2img').height()-36;
+	$('.subcribe').height(h);	
+	var blog=$('#blog-img').height();
+		$('.blog-bg').height(blog);
+		$('.blog-grid').height(blog);
+		var gallery=$('#gallery-img').height();
+		$('.gallery-bg').height(gallery);
+});
+	$(window).resize(function(){
+
+	var chieucao=$('.sub-img').height();
+	$('.sub-banner').height(chieucao);
+	var imgheight=$('.img-1').height();
+	$('.pr-img').height(imgheight);
+	var list=$('.img-1-1').height();
+	$('.pr-img-1').height(list);
+	var cao=$('.sub-2img').height();
+	$('.sub-banner-2').height(cao);
+				var h=$('.sub-2img').height()-36;
+	$('.subcribe').height(h);
+		var blog=$('#blog-img').height();
+		$('.blog-bg').height(blog);
+		$('.blog-grid').height(blog);
+			var gallery=$('#gallery-img').height();
+		$('.gallery-bg').height(gallery);
+		
+});
+	$(window).scroll(function(){
+	if($(window).scrollTop()>110)
+		{
+			$('#nav').addClass('nav2');
+			$('.btn-top').css('display','block');
+			$('#nav-btn').removeClass('navbar-toggler');
+			$('.nav-btn').css('display','block');	
+			$('#nav-btn').addClass('nav1');	
+		}
+		
+else
+	{	
+			$('#nav').removeClass('nav2');
+		$('.btn-top').css('display','none');
+	$('#nav-btn').removeClass('nav1');
+		$('.nav-btn').css('display','none');
+		$('#nav-btn').addClass('navbar-toggler');
+		
+	}
+});
+	$(".btn-more").click(function(){
+	var click= $('#viewmore').css('display');
+	
+		if (click=='none')
+			$('#viewmore').css('display','block');
+		
+		if(click=='block')
+			{
+			$('.viewmore-mes').css('display','block');
+			$(".btn-more").css('display','none');
+				}
+	});
+
+	</script>
+</body>
+</html>
